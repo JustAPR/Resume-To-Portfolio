@@ -24,7 +24,6 @@ def extract_text_from_pdf(file_bytes):
         text += page.get_text()
     return text
 
-def extract_content(file_bytes):
     text = extract_text_from_pdf(file_bytes)
 
     prompt = f"""
