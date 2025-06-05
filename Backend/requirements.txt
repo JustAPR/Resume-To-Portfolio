@@ -2,4 +2,4 @@ fastapi[standard]
 uvicorn[standard]
 python-dotenv
 pymupdf
-google-generative-ai
+google-generativeai
