@@ -15,3 +15,4 @@ def extract_text_from_pdf(pdf_path):
 pdf_file = "example.pdf"
 extracted_text = extract_text_from_pdf(pdf_file)
 print(extracted_text)
+

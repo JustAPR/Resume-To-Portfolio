@@ -52,7 +52,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}
           className={`text-xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}
         >
-          PR
+          
         </a>
 
         {/* Desktop Navigation */}

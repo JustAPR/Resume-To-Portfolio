@@ -15,8 +15,8 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-2">Prajay Reddy</h3>
-            <p className="text-sm text-gray-300">Computer Science Student & AI Enthusiast</p>
+            <h3 className="text-xl font-bold mb-2"></h3>
+            <p className="text-sm text-gray-300"></p>
           </div>
           
           <div className="flex gap-4">
@@ -40,7 +40,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
         
         <div className="mt-8 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            &copy; {currentYear} Prajay Reddy. All rights reserved.
+            &copy; {currentYear} All rights reserved.
           </p>
           
           <p className="text-sm text-gray-400 flex items-center gap-1">
